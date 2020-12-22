@@ -14,11 +14,20 @@ const useStyles = createUseStyles({
     fontSize: '0.93rem',
     fontWeight: 600,
     lineHeight: '32px',
-    cursor: 'pointer'
+    cursor: 'pointer',
+    transition: 'all 0.3s',
+    '&:hover, &:active': {
+      backgroundColor: `${colors.Primary}`,
+      color: `${colors.White}`
+    }
   },
   withBtn: {
     paddingRight: 40,
-    cursor: 'auto'
+    cursor: 'auto',
+    '&:hover, &:active': {
+      backgroundColor: `${colors.FilterTablets}`,
+      color: `${colors.Primary}`
+    }
   }
 });
 

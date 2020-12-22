@@ -63,7 +63,12 @@ const useStyles = createUseStyles({
   },
   position: {
     margin: '10px 0',
-    color: `${colors.VeryDarkGrayishCyan}`
+    color: `${colors.VeryDarkGrayishCyan}`,
+    cursor: 'pointer',
+    transition: 'all 0.3s',
+    '&:hover, &:active': {
+      color: `${colors.Primary}`
+    }
   },
   meta: {
     color: `${colors.DarkGrayishCyan}`,

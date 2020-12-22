@@ -7,7 +7,7 @@ const useStyles = createUseStyles({
     display: 'flex',
     justifyContent: 'space-between',
     maxWidth: 1100,
-    minHeight: 60,
+    minHeight: 72,
     margin: '-90px auto 55px',
     borderRadius: 5,
     padding: '10px 40px',

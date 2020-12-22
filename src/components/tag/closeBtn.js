@@ -31,6 +31,10 @@ const useStyles = createUseStyles({
     padding: 0,
     backgroundColor: `${colors.Primary}`,
     textAlign: 'center',
-    cursor: 'pointer'
+    cursor: 'pointer',
+    transition: 'all 0.3s',
+    '&:hover, &:active': {
+      backgroundColor: `${colors.VeryDarkGrayishCyan}`
+    }
   }
 });
