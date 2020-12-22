@@ -47,7 +47,7 @@ function App() {
   });
 
   return (
-    <div>
+    <div className={classes.app}>
       <Header/>
       <div className={classes.main}>
         <div className={classes.container}>

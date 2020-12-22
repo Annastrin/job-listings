@@ -22,9 +22,16 @@ const useStyles = createUseStyles({
     html: {
       fontSize: '15px',
       color: `${colors.Primary}`
+    },
+    'html, body, #root': {
+      height: '100%'
     }
   },
+  app: {
+    height: '100%'
+  },
   main: {
+    height: 'calc(100% - 155px)',
     padding: '75px 60px',
     backgroundColor: `${colors.Background}`
   },
