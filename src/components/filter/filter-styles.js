@@ -8,7 +8,7 @@ const useStyles = createUseStyles({
     justifyContent: 'space-between',
     maxWidth: 1100,
     minHeight: 72,
-    margin: '-90px auto 55px',
+    margin: '-110px auto 55px',
     borderRadius: 5,
     padding: '10px 40px',
     backgroundColor: `${colors.White}`
@@ -35,6 +35,7 @@ const useStyles = createUseStyles({
 
   [`@media screen and (max-width: ${media.tablet})`]: {
     filter: {
+      margin: '-90px auto 55px',
       padding: '10px 25px'
     }
   }
