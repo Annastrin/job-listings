@@ -2,6 +2,10 @@ import {createUseStyles} from 'react-jss';
 import {colors} from '../app/app-styles';
 
 const useStyles = createUseStyles({
+  '@keyframes opacity-animation': {
+    from: {opacity: 0},
+    to: {opacity: 1}
+  },
   tag: {
     display: 'inline-block',
     height: 32,
@@ -19,7 +23,9 @@ const useStyles = createUseStyles({
     '&:hover, &:active': {
       backgroundColor: `${colors.Primary}`,
       color: `${colors.White}`
-    }
+    },
+    animationName: '$opacity-animation',
+    animationDuration: '0.5s'
   },
   withBtn: {
     paddingRight: 40,

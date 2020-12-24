@@ -3,6 +3,10 @@ import {colors} from '../app/app-styles';
 import {media} from '../app/app-styles';
 
 const useStyles = createUseStyles({
+  '@keyframes opacity-animation': {
+    from: {opacity: 0},
+    to: {opacity: 1}
+  },
   card: {
     position: 'relative',
     display: 'flex',
@@ -13,6 +17,8 @@ const useStyles = createUseStyles({
     padding: '30px 40px',
     backgroundColor: `${colors.White}`,
     boxShadow: `5px 5px 15px hsl(188, 40%, 88%)`,
+    animationName: '$opacity-animation',
+    animationDuration: '0.5s',
 
     '&$featured::before': {
       content: '""',
