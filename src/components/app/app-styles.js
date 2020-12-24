@@ -23,17 +23,12 @@ const useStyles = createUseStyles({
       fontSize: '15px',
       color: `${colors.Primary}`
     },
-    'html, body, #root': {
-      height: '100%'
+    body: {
+      backgroundColor: `${colors.Background}`
     }
   },
-  app: {
-    height: '100%'
-  },
   main: {
-    height: 'calc(100% - 155px)',
-    padding: '75px 60px',
-    backgroundColor: `${colors.Background}`
+    padding: '75px 60px'
   },
   container: {
     position: 'relative',
