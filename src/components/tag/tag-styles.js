@@ -24,6 +24,7 @@ const useStyles = createUseStyles({
       backgroundColor: `${colors.Primary}`,
       color: `${colors.White}`
     },
+    overflow: 'hidden',
     animationName: '$opacity-animation',
     animationDuration: '0.5s'
   },

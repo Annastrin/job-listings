@@ -10,9 +10,9 @@ const useStyles = createUseStyles({
   filter: {
     display: 'flex',
     justifyContent: 'space-between',
-    maxWidth: 1100,
+    maxWidth: 1110,
     minHeight: 72,
-    margin: '-110px auto 55px',
+    margin: '-110px auto 38px',
     borderRadius: 5,
     padding: '10px 40px',
     backgroundColor: `${colors.White}`,
@@ -27,7 +27,7 @@ const useStyles = createUseStyles({
   clear: {
     alignSelf: 'center',
     border: 'none',
-    padding: 10,
+    padding: '10px 0',
     backgroundColor: 'transparent',
     color: `${colors.DarkGrayishCyan}`,
     fontWeight: 500,
