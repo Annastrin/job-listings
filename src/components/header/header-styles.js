@@ -8,7 +8,8 @@ const useStyles = createUseStyles({
     backgroundColor: `${colors.Primary}`,
     backgroundImage: `url(${bgDesktop})`,
     backgroundRepeat: 'no-repeat',
-    backgroundSize: 'cover'
+    backgroundSize: 'cover',
+    backgroundPosition: 'center'
   }
 });
 

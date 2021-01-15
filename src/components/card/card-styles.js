@@ -11,10 +11,10 @@ const useStyles = createUseStyles({
     position: 'relative',
     display: 'flex',
     justifyContent: 'space-between',
-    maxWidth: 1100,
-    margin: '0 auto 30px',
+    maxWidth: 1110,
+    margin: '0 auto 24px',
     borderRadius: 5,
-    padding: '30px 40px',
+    padding: '32px 40px',
     backgroundColor: `${colors.White}`,
     boxShadow: `5px 5px 15px hsl(188, 40%, 88%)`,
     animationName: '$opacity-animation',
@@ -41,12 +41,13 @@ const useStyles = createUseStyles({
   logo: {
     width: 88,
     height: 88,
-    marginRight: '15px'
+    marginRight: '25px'
   },
   company: {
     display: 'inline-block',
-    margin: '0 10px 0 0',
-    fontSize: '1rem'
+    margin: '0 16px 0 0',
+    fontSize: '14px',
+    lineHeight: '24px'
   },
   labels: {
     display: 'inline-block'
@@ -54,9 +55,9 @@ const useStyles = createUseStyles({
   label: {
     display: 'inline-block',
     borderRadius: 50,
-    margin: '0 3px',
-    padding: '5px 10px',
-    fontSize: '0.67rem',
+    margin: '0 4px',
+    padding: '7px 8px 5px 8px',
+    fontSize: '11px',
     fontWeight: 600,
     color: `${colors.White}`,
 
@@ -68,8 +69,9 @@ const useStyles = createUseStyles({
     }
   },
   position: {
-    margin: '10px 0',
+    margin: '12px 0',
     color: `${colors.VeryDarkGrayishCyan}`,
+    fontSize: '18px',
     cursor: 'pointer',
     transition: 'all 0.3s',
     '&:hover, &:active': {
@@ -79,7 +81,7 @@ const useStyles = createUseStyles({
   meta: {
     color: `${colors.DarkGrayishCyan}`,
     '& span': {
-      padding: '0 10px',
+      padding: '0 14px',
 
       '&:first-child': {
         paddingLeft: 0
@@ -90,7 +92,8 @@ const useStyles = createUseStyles({
     display: 'flex',
     justifyContent: 'right',
     flexWrap: 'wrap',
-    alignSelf: 'center'
+    alignSelf: 'center',
+    margin: '0 -7px'
   },
   new: {
     marginLeft: 0

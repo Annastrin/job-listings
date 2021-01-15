@@ -28,7 +28,7 @@ const useStyles = createUseStyles({
     }
   },
   main: {
-    padding: '75px 60px'
+    padding: '76px 60px'
   },
   container: {
     position: 'relative',
