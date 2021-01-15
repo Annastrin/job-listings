@@ -43,7 +43,7 @@ const useStyles = createUseStyles({
       }
     },
     main: {
-      padding: '55px 30px'
+      padding: '55px 25px'
     }
   }
 });

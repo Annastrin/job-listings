@@ -102,7 +102,7 @@ const useStyles = createUseStyles({
 
   [`@media screen and (max-width: ${media.tablet})`]: {
     card: {
-      padding: '30px 25px 23px'
+      padding: '34px 23px 17px'
     },
     logo: {
       width: 60,
@@ -118,23 +118,37 @@ const useStyles = createUseStyles({
   [`@media screen and (max-width: ${media.mobile})`]: {
     card: {
       display: 'block',
-      marginBottom: 55
+      marginBottom: 38
     },
     info: {
       width: '100%',
       borderBottom: `1px solid ${colors.DarkGrayishCyan}`,
-      padding: '0 0 20px 0'
+      padding: '0 0 22px 0'
+    },
+    company: {
+      fontSize: '13px'
+    },
+    position: {
+      margin: '10px 0 15px',
+      fontSize: '15px'
+    },
+    meta: {
+      '& span': {
+        padding: '0 7px',
+
+        '&:first-child': {
+          paddingLeft: 0
+        }
+      }
     },
     tags: {
-      width: '100%',
-      margin: '0 -7px',
-      paddingTop: 15,
+      paddingTop: 6,
       justifyContent: 'left',
       flexShrink: 1
     },
     logo: {
       position: 'absolute',
-      top: '-25px',
+      top: '-23px',
       width: 50,
       height: 50
     }

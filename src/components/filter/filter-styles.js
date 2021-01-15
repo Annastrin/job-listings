@@ -41,7 +41,7 @@ const useStyles = createUseStyles({
 
   [`@media screen and (max-width: ${media.tablet})`]: {
     filter: {
-      margin: '-90px auto 55px',
+      margin: '-90px auto 50px',
       padding: '10px 25px'
     }
   }
