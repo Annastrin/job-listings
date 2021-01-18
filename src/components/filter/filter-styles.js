@@ -1,6 +1,5 @@
 import {createUseStyles} from 'react-jss';
-import {colors} from '../app/app-styles';
-import {media} from '../app/app-styles';
+import {colors, media} from '../../styleguide';
 
 const useStyles = createUseStyles({
   '@keyframes show': {

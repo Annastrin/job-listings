@@ -1,7 +1,7 @@
 import React from "react";
 import { createUseStyles } from "react-jss";
 import { ReactComponent as RemoveIcon } from './icon-remove.svg';
-import {colors} from '../app/app-styles';
+import {colors} from '../../styleguide';
 
 export function CloseBtn(props) {
   const classes = useStyles();

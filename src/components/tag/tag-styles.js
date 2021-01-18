@@ -1,5 +1,5 @@
 import {createUseStyles} from 'react-jss';
-import {colors} from '../app/app-styles';
+import {colors} from '../../styleguide';
 
 const useStyles = createUseStyles({
   '@keyframes opacity-animation': {

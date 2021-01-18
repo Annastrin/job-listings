@@ -1,6 +1,5 @@
 import { createUseStyles } from 'react-jss';
-import { colors } from '../app/app-styles';
-import { media } from '../app/app-styles';
+import { colors, media } from '../../styleguide';
 import bgDesktop from './images/bg-header-desktop.svg';
 import bgMobile from './images/bg-header-mobile.svg';
 
